@@ -9,7 +9,7 @@
 @mixin slider-text{
   font-size: 50px;
   text-transform: uppercase;
-  background-color: $main-color;
+  background-color: $main-bgcolor;
 }
 
 @mixin slider-p{
@@ -20,8 +20,21 @@
 
 @mixin bottom{
   padding: 5px 20px;
-  border-bottom: 4px solid $main-color;
+  border-bottom: 4px solid $main-bgcolor;
   background-color: #000;
   font-size: 24px;
   color: #FFF;
+}
+
+@mixin box-text{
+  color: $main-text-color;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+@mixin box-p{
+  font-size: 24px;
+  color: $main-text-color;
+  margin-bottom: 60px;
 }
