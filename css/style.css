@@ -33,4 +33,16 @@
       background: #FFEB00;
       color: #000; }
 
+#box {
+  padding: 90px; }
+  #box h2 {
+    color: #403F46;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 25px; }
+  #box p {
+    font-size: 24px;
+    color: #403F46;
+    margin-bottom: 60px; }
+
 /*# sourceMappingURL=style.css.map */
