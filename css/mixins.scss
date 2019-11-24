@@ -5,3 +5,23 @@
   padding: 30px 5px;
   align-items: center;
 }
+
+@mixin slider-text{
+  font-size: 50px;
+  text-transform: uppercase;
+  background-color: $main-color;
+}
+
+@mixin slider-p{
+  font-size: 24px;
+  color: #FFF;
+  background-color: #3F3F44;
+}
+
+@mixin bottom{
+  padding: 5px 20px;
+  border-bottom: 4px solid $main-color;
+  background-color: #000;
+  font-size: 24px;
+  color: #FFF;
+}
