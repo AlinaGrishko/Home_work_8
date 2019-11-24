@@ -14,16 +14,17 @@
 
 @mixin slider-p{
   font-size: 24px;
-  color: #FFF;
+  color: $white;
   background-color: #3F3F44;
 }
 
 @mixin bottom{
   padding: 5px 20px;
+  border: none;
   border-bottom: 4px solid $main-bgcolor;
   background-color: #000;
   font-size: 24px;
-  color: #FFF;
+  color: $white;
 }
 
 @mixin box-text{
@@ -61,4 +62,24 @@
   font-size: 16px;
   color: $main-text-color;
   margin-bottom: 40px;
+}
+
+@mixin footer-title{
+  font-size: 18px;
+  color: $white;
+}
+
+@mixin footer-p{
+  font-size: 13px;
+  color: $white;
+}
+
+@mixin bottom-footer {
+  padding: 5px 20px;
+  border: none;
+  border-bottom: 4px solid $main-bgcolor;
+  background-color: #000;
+  font-size: 15px;
+  color: $white;
+  margin-bottom: 55px;
 }

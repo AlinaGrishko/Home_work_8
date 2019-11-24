@@ -1,9 +1,6 @@
 @import "variables";
 @import "mixins";
 
-
-
-
 #header{
   background: #F6F6F6;
   padding: 10px;
@@ -52,7 +49,6 @@
   }
 }
 
-
 #our-work{
   padding: 90px;
   p{
@@ -84,6 +80,40 @@
   }
   .btn-work:before {
     @include btn-after-before
+  }
+}
+
+#footer{
+  padding: 30px;
+  background: $main-text-color;
+
+  ul{
+    margin: 0 2px;
+  }
+
+  h4{
+    @include footer-title;
+    margin-bottom: 20px;
+  }
+  p{
+    @include footer-p;
+    margin-bottom: 40px;
+  }
+  button {
+    @include bottom-footer;
+
+    &:hover {
+      background: $main-bgcolor;
+      color: #000;
+    }
+  }
+}
+
+#footer-nav{
+  background: #000;
+
+  span{
+    @include footer-p;
   }
 }
 
