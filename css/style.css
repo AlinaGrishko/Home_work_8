@@ -1,3 +1,13 @@
-
+#header {
+  background: #F6F6F6;
+  padding: 10px; }
+  #header ul a {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0 5px;
+    padding: 30px 5px;
+    align-items: center; }
+    #header ul a:hover {
+      background: #FFEB00; }
 
 /*# sourceMappingURL=style.css.map */
