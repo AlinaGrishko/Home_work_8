@@ -52,3 +52,38 @@
   }
 }
 
+
+#our-work{
+  padding: 90px;
+  p{
+    @include our-work-p;
+  }
+  .btn-work{
+    @include btn-work;
+  }
+
+  .btn-work:after {
+    @include btn-after-before
+  }
+  .btn-work:before {
+    @include btn-after-before
+  }
+}
+
+#our-clients{
+  padding: 0 0 90px;
+  p{
+    @include our-work-p;
+  }
+  .btn-work{
+    @include btn-work;
+  }
+
+  .btn-work:after {
+    @include btn-after-before
+  }
+  .btn-work:before {
+    @include btn-after-before
+  }
+}
+

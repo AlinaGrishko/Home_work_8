@@ -45,4 +45,60 @@
     color: #403F46;
     margin-bottom: 60px; }
 
+#our-work {
+  padding: 90px; }
+  #our-work p {
+    font-size: 16px;
+    color: #403F46;
+    margin-bottom: 40px; }
+  #our-work .btn-work {
+    position: relative;
+    background: #403F46;
+    color: #FFEB00;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 40px; }
+  #our-work .btn-work:after {
+    content: "";
+    border-top: 1px solid #403F46;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 100%; }
+  #our-work .btn-work:before {
+    content: "";
+    border-top: 1px solid #403F46;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 100%; }
+
+#our-clients {
+  padding: 0 0 90px; }
+  #our-clients p {
+    font-size: 16px;
+    color: #403F46;
+    margin-bottom: 40px; }
+  #our-clients .btn-work {
+    position: relative;
+    background: #403F46;
+    color: #FFEB00;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 40px; }
+  #our-clients .btn-work:after {
+    content: "";
+    border-top: 1px solid #403F46;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 100%; }
+  #our-clients .btn-work:before {
+    content: "";
+    border-top: 1px solid #403F46;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 100%; }
+
 /*# sourceMappingURL=style.css.map */
