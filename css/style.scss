@@ -66,6 +66,19 @@
   }
 }
 
+// Masonry
+
+.item-masonry{
+  padding: 2px;
+  column-count: 4;
+}
+
+.item-masonry img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
 #our-clients{
   padding: 0 0 90px;
   p{
@@ -97,10 +110,15 @@
   }
   p{
     @include footer-p;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
   }
+  a{
+    color: $main-bgcolor;
+  }
+
   button {
     @include bottom-footer;
+    margin-top: 40px;
 
     &:hover {
       background: $main-bgcolor;
@@ -108,6 +126,9 @@
     }
   }
 }
+
+
+
 
 #footer-nav{
   background: #000;
@@ -117,3 +138,41 @@
   }
 }
 
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+  .item-masonry {
+    column-count: 4;
+  }
+}
+
+@media (max-width: 992px) {
+  .item-masonry {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 768px) {
+  .item-masonry {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 576px) {
+  .item-masonry {
+    column-count: 1;
+  }
+}
+
+@media (max-width: 425px) {
+  .item-masonry {
+    column-count: 1;
+  }
+}
